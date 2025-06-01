@@ -96,3 +96,43 @@ a {
   max-width: 500px;
   border-radius: 5%;
 }
+
+/* Features section */
+.features {
+  padding-block: 48px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 36px;
+  color: var(--secondary-header);
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-block: 48px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card div {
+  text-align: center;
+}
