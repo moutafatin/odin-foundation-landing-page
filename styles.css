@@ -159,3 +159,45 @@ a {
   font-size: 32px;
   font-weight: bold;
 }
+
+/* Call to action section */
+
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue);
+  padding: 48px;
+  max-width: 1200px;
+  margin: 52px auto;
+  border-radius: 20px;
+}
+
+.call-to-action h3 {
+  color: var(--secondary-text);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.call-to-action p {
+  color: #dadee4;
+}
+
+.call-to-action button {
+  background-color: transparent;
+  color: var(--secondary-text);
+  font-weight: bold;
+  font-size: 14px;
+  flex-shrink: 0;
+  padding: 10px 20px;
+  border: 3px solid var(--secondary-text);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.call-to-action button:hover {
+  color: var(--blue);
+  background-color: var(--secondary-text);
+  border: 3px solid var(--blue);
+}
