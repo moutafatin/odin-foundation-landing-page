@@ -144,7 +144,7 @@ a {
 }
 
 .quote div {
-  max-width: 1200px;
+  max-width: 1024px;
   margin-inline: auto;
   font-size: 36px;
   color: var(--background);
