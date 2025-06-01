@@ -136,3 +136,26 @@ a {
 .card div {
   text-align: center;
 }
+
+/* quote section */
+
+.quote {
+  background-color: var(--secondary-text);
+}
+
+.quote div {
+  max-width: 1200px;
+  margin-inline: auto;
+  font-size: 36px;
+  color: var(--background);
+  font-style: italic;
+  padding-block: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote div span {
+  align-self: flex-end;
+  font-size: 32px;
+  font-weight: bold;
+}
