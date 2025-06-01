@@ -33,6 +33,7 @@ a {
   align-items: center;
   max-width: 1200px;
   margin-inline: auto;
+  padding-block: 24px;
 }
 .nav-list {
   display: flex;
