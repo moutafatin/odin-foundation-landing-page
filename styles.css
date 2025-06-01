@@ -31,7 +31,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1440px;
+  max-width: 1200px;
   margin-inline: auto;
 }
 .nav-list {
@@ -52,4 +52,46 @@ a {
   font-size: 24px;
   color: var(--main-text);
   font-weight: 900;
+}
+
+.hero {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  gap: 10px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: var(--main-text);
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: var(--secondary-text);
+}
+
+.hero-content button {
+  padding: 12px 24px;
+  background-color: var(--blue);
+  color: var(--secondary-text);
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin-right: auto;
+}
+
+.hero-image {
+  max-width: 500px;
+  border-radius: 5%;
 }
