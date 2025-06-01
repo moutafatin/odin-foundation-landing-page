@@ -33,7 +33,7 @@ a {
   align-items: center;
   max-width: 1200px;
   margin-inline: auto;
-  padding-block: 24px;
+  padding: 24px;
 }
 .nav-list {
   display: flex;
@@ -99,7 +99,7 @@ a {
 
 /* Features section */
 .features {
-  padding-block: 48px;
+  padding: 48px;
   max-width: 1200px;
   margin-inline: auto;
 }
@@ -141,6 +141,7 @@ a {
 
 .quote {
   background-color: var(--secondary-text);
+  padding: 24px;
 }
 
 .quote div {
@@ -161,7 +162,9 @@ a {
 }
 
 /* Call to action section */
-
+.call-to-action-section {
+  padding: 24px;
+}
 .call-to-action {
   display: flex;
   justify-content: space-between;
